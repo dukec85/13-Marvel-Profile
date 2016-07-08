@@ -11,7 +11,7 @@ body {
 
 .creator-list {
   border-top: solid black;
-  width: 25%;
+  width: 110%;
 }
 
 .creator-list-list {
@@ -23,7 +23,32 @@ body {
   flex-direction: row;
 }
 
-.column-left {
+.characters {
   display: flex;
   flex-direction: row;
+}
+
+.comics {
+  display: flex;
+  flex-direction: row;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+}
+
+.read {
+  display: flex;
+  flex-direction: column;
+}
+
+.character-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
 }
