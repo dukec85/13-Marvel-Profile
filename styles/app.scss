@@ -4,73 +4,97 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'variables';
+
 body {
   list-style: none;
 }
+
 .top {
   padding-left: 15%;
   background: $brand-purple;
   color: $brand-light-gray;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
+
 .container {
   display: flex;
   flex-direction: row;
 }
+
 .creator-list {
+  width: 100%;
   border-top: solid black;
-  width: 110%;
 }
+
 .creator-list-list {
   list-style: none;
 }
+
 .column {
   display: flex;
   flex-direction: column;
 }
+
 .characters {
   display: flex;
   flex-direction: column;
 }
+
 .comics {
   display: flex;
   flex-direction: column;
 }
+
 .title {
   display: flex;
   flex-direction: column;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  border-bottom: $brand-black;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
 }
+
 .read {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   background: $brand-purple;
   color: $brand-light-gray;
+  margin-left: 33%;
 }
+
 .character-details {
   display: flex;
   flex-direction: column;
+  text-align: center;
 }
+
+.number {
+    text-align: center;
+}
+
 .left {
   display: flex;
   flex-direction: column;
 }
+
 .stuff {
   display: flex;
   flex-direction: row;
 }
+
 .top-right {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .top-left {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
+
 .button {
   display: flex;
   flex-direction: row;
-  align-items: center;
+  justify-content: center;
 }
