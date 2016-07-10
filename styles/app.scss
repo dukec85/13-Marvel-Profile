@@ -9,6 +9,11 @@ body {
   list-style: none;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
 .creator-list {
   border-top: solid black;
   width: 110%;
@@ -20,17 +25,17 @@ body {
 
 .column {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .characters {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .comics {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .title {
@@ -40,7 +45,7 @@ body {
 
 .read {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .character-details {
@@ -51,4 +56,27 @@ body {
 .left {
   display: flex;
   flex-direction: column;
+}
+
+.stuff {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
