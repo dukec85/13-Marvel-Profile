@@ -10,7 +10,6 @@ body {
 }
 
 .container-top {
-  background: $brand-purple;
   color: $brand-light-gray;
   font-family: 'Comic Sans MS', cursive, sans-serif;
   &-inner {
@@ -19,19 +18,19 @@ body {
 }
 
 .top {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15%;
-  padding-left: 15%;
   background: $brand-purple;
   color: $brand-light-gray;
   font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
 }
 
 .marvel {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 5%;
+  margin: 0;
 }
 
 .row {
@@ -39,9 +38,8 @@ body {
   flex-direction: row;
 }
 
-.container {
+.row {
   display: flex;
-  flex-direction: row;
 }
 
 .creator-list {
