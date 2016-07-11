@@ -66,6 +66,12 @@ body {
   flex-direction: column;
 }
 
+.character-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .title {
   display: flex;
   flex-direction: column;
