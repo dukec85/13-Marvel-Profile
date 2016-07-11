@@ -6,14 +6,30 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'variables';
 
 body {
+  display: flex;
   list-style: none;
 }
 
 .top {
+  display: flex;
+  flex-direction: row;
   padding-left: 15%;
   background: $brand-purple;
   color: $brand-light-gray;
   font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin-bottom: 15%
+}
+
+.marvel {
+  margin-bottom: 5%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+
+
+
 }
 
 .container {
@@ -71,7 +87,7 @@ body {
     text-align: center;
 }
 
-.left {
+.section {
   display: flex;
   flex-direction: column;
 }
