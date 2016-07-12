@@ -35,6 +35,14 @@ body {
   margin: 0;
 }
 
+.series-img {
+  width: 100%;
+}
+
+.image-parent {
+  max-width: 200%;
+}
+
 .row {
   display: flex;
   flex-direction: row;
@@ -72,6 +80,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  max-width: 80%;
 }
 
 .title {
@@ -91,6 +100,12 @@ body {
   }
 
 .character-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.number-year {
   display: flex;
   flex-direction: column;
   text-align: center;
