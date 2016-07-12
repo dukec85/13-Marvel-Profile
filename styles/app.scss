@@ -1,6 +1,144 @@
 // @import 'yoga';
 // @import 'normalize';
-
-// $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
-// @import 'font-awesome';
+$fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+@import 'font-awesome';
 @import 'box-sizing';
+@import 'variables';
+
+
+
+body {
+  margin: 0;
+}
+
+.container-top {
+  color: $brand-light-gray;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  &-inner {
+    max-width: 60rem;
+  }
+}
+
+.top {
+  background: $brand-purple;
+  color: $brand-light-gray;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  padding: 1rem;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.marvel {
+  margin: 0;
+}
+
+.series-img {
+  width: 100%;
+}
+
+.image-parent {
+  max-width: 200%;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.row {
+  display: flex;
+}
+
+.creator-list {
+  width: 100%;
+  border-top: solid black;
+}
+
+.creator-list-list {
+  list-style: none;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.characters {
+  display: flex;
+  flex-direction: column;
+}
+
+.comics {
+  display: flex;
+  flex-direction: column;
+}
+
+.character-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 80%;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  border-bottom: $brand-black;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.read {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-left: 33%;
+  background: $brand-purple;
+  color: $brand-light-gray;
+  }
+
+.character-details {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.number-year {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.number {
+  text-align: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.stuff {
+  display: flex;
+  flex-direction: row;
+}
+
+.top-right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
